@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		0346BD5C20E20BF000AFA6A3 /* Sampleframework.h in Headers */ = {isa = PBXBuildFile; fileRef = 0346BD5A20E20BF000AFA6A3 /* Sampleframework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0346BD6420E20C2B00AFA6A3 /* MasterClasss.h in Headers */ = {isa = PBXBuildFile; fileRef = 0346BD6220E20C2B00AFA6A3 /* MasterClasss.h */; };
+		0346BD6520E20C2B00AFA6A3 /* MasterClasss.m in Sources */ = {isa = PBXBuildFile; fileRef = 0346BD6320E20C2B00AFA6A3 /* MasterClasss.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0346BD5720E20BF000AFA6A3 /* Sampleframework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Sampleframework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0346BD5A20E20BF000AFA6A3 /* Sampleframework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sampleframework.h; sourceTree = "<group>"; };
 		0346BD5B20E20BF000AFA6A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0346BD6220E20C2B00AFA6A3 /* MasterClasss.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterClasss.h; sourceTree = "<group>"; };
+		0346BD6320E20C2B00AFA6A3 /* MasterClasss.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterClasss.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,8 @@
 			children = (
 				0346BD5A20E20BF000AFA6A3 /* Sampleframework.h */,
 				0346BD5B20E20BF000AFA6A3 /* Info.plist */,
+				0346BD6220E20C2B00AFA6A3 /* MasterClasss.h */,
+				0346BD6320E20C2B00AFA6A3 /* MasterClasss.m */,
 			);
 			path = Sampleframework;
 			sourceTree = "<group>";
@@ -60,6 +66,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0346BD5C20E20BF000AFA6A3 /* Sampleframework.h in Headers */,
+				0346BD6420E20C2B00AFA6A3 /* MasterClasss.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0346BD6520E20C2B00AFA6A3 /* MasterClasss.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
